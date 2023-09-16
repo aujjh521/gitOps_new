@@ -8,6 +8,11 @@ def retrain(params):
     '''
     data = getdata(params)
 
+def predict():
+    '''
+    for predict
+    '''
+
 
 def main(params):
 
@@ -23,3 +28,5 @@ if __name__ == '__main__':
     }
 
     main(params)
+
+    predict()
