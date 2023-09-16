@@ -15,6 +15,11 @@ def predict():
     for predict
     '''
 
+def kpi():
+    '''
+    calculate kpi
+    '''
+
 
 def main(params):
 
