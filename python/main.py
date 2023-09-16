@@ -23,3 +23,6 @@ if __name__ == '__main__':
     }
 
     main(params)
+
+    #落地一些資料for查案
+    data = getdata(params)
