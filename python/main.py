@@ -1,12 +1,19 @@
 import pandas as pd
 import numpy as np
-from utils.getdata import getdata
+from utils.getdata import getdata, preprocessing
 
 def retrain(params):
     '''
     for retrain
     '''
     data = getdata(params)
+
+    data = preprocessing(data)
+
+def predict():
+    '''
+    for predict
+    '''
 
 
 def main(params):
@@ -23,3 +30,5 @@ if __name__ == '__main__':
     }
 
     main(params)
+
+    predict()

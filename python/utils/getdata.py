@@ -6,3 +6,10 @@ def getdata(params):
     '''
 
     return data
+
+def preprocessing(data):
+    '''
+    preprocess the data
+    '''
+
+    return new_data
